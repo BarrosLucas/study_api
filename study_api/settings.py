@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'study_api.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.parse(
-        os.environ.get('DATABASE_URL', 'postgresql://postgres:F5WE*imDkWcS4TF@db.nsufkrvfmzwvmjjyppcn.supabase.co:5432/postgres')
+        os.environ.get('DATABASE_URL', 'postgresql://com_postgres_study_user:Rl0DZRF87eCFg28N8U68JBPiwrgsr06h@dpg-d594q3mr433s73fk0ge0-a.oregon-postgres.render.com/com_postgres_study')
     )
 }
 
